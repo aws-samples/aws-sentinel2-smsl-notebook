@@ -1,6 +1,10 @@
 
 # Getting Started with Geospatial Imagery Analysis
 
+"\n",
+    "[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/aws-samples/aws-sentinel2-smsl-notebook/blob/main/geospatial_imagery_analysis.ipynb)\n",
+    "\n",
+
 This example contains portions of the original code repository used for the blog post [Getting Started With Geospatial Analysis on SageMaker Studio Lab](https://towardsdatascience.com/getting-started-with-geospatial-analysis-b2116c50308b). It has been abridged to cover only the imagery analysis portion of the original post and includes an additional land cover classification. 
 
 ![Lake Shasta](https://github.com/samx18/geospatial_analysis/blob/main/images/lake_shasta.png)
@@ -18,6 +22,8 @@ metres and three bands at 60 metres spatial resolution.
 You can sign up for SageMaker Studio Lab and use it for free without an AWS account. You can run for 4 hours with GPU or 12 hours with CPU and then logout and log back in for another session. Your data and notebooks are persisted. After clicking the launch button below, choose "download whole repo" and then "build conda environment" when prompted.
 
 When it's done installing and configuring the conda environment, open the "geospatial_imagery_analysis" notebook.  Click-Enter to run each row and wait a moment to see the results of each line before proceeding to the next. The line marker should change to a number when it's successfully run that line, ie "[5]" means that it has run line 5.
+
+<a href="https://studiolab.sagemaker.aws/import/github/https://github.com/aws-samples/aws-sentinel2-smsl-notebook/blob/main/geospatial_imagery_analysis.ipynb" rel="nofollow"><img src="https://camo.githubusercontent.com/8c5378ff3bf6f71a57442940234293bd63c7ed2418d64f74f2bda3dc6f2904ed/68747470733a2f2f73747564696f6c61622e736167656d616b65722e6177732f73747564696f6c61622e737667" alt="Open In SageMaker Studio Lab" data-canonical-src="https://studiolab.sagemaker.aws/studiolab.svg" style="max-width: 100%;"></a></p>
 
 ### Sentinel Hub
 [Sentinel Hub](https://www.sentinel-hub.com/) is a cloud-based geospatial data API and engine used to search, discover and analyze petabytes of satellite data from multiple cloud providers and data sources. It is operated by Sinergise - a GIS IT company based in Slovenia with more than 10 years of experience in working with spatial data. 

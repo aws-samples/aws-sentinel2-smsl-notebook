@@ -1,5 +1,5 @@
 
-# Getting Started with Geospatial Imagery Analysis
+# Vegetation Analysis Pre/Post Lava Fire Using SentinelHub and Sentinel-2 Imagery on AWS
 This example contains portions of the original code repository used for the blog post [Getting Started With Geospatial Analysis on SageMaker Studio Lab](https://towardsdatascience.com/getting-started-with-geospatial-analysis-b2116c50308b). It has been abridged to cover only the imagery analysis portion of the original post and includes an additional land cover classification. 
 
 ![Lake Shasta](https://github.com/samx18/geospatial_analysis/blob/main/images/lake_shasta.png)
